@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio | Aspiring Backend Developer</title>
+  <meta name="description" content="Portofolio Digital Mahasiswa D4 Teknologi Rekayasa Internet - Aspiring Backend Developer / Software Engineer.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- NAVIGATION -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="#home" class="brand-logo">
+        <span class="code-bracket">&lt;</span>Dev<span class="code-bracket">/&gt;</span>
+      </a>
+
+      <button class="mobile-toggle" id="menuToggle" aria-label="Toggle navigasi menu" aria-expanded="false">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+
+      <nav class="nav-menu" id="navMenu">
+        <ul class="nav-links">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#contact" class="nav-link cta-link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO / HOME SECTION -->
+    <section id="home" class="hero-section">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="status-pill">
+            <span class="status-dot"></span> Mahasiswa D4 Teknologi Rekayasa Internet
+          </div>
+          <h1 class="hero-title">
+            Halo, saya <span class="highlight">Frista</span>
+          </h1>
+          <h2 class="hero-subtitle">
+            Aspiring Backend Developer | Software Engineering Enthusiast
+          </h2>
+          <p class="hero-tagline">
+            "Membangun fondasi web dan logika sistem yang terstruktur, efisien, dan andal."
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">Lihat Project</a>
+            <a href="#contact" class="btn btn-secondary">Hubungi Saya</a>
+          </div>
+        </div>
+
+        <div class="hero-image-wrapper">
+          <div class="hero-image-backdrop"></div>
+          <img src="frista.jpeg" alt="Foto Profil Frista" class="hero-image" id="heroProfileImg">
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tag">Eksplorasi & Latar Belakang</p>
+          <h2 class="section-title">Tentang Saya</h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-card">
+            <p class="about-text">
+              Saya adalah mahasiswa semester awal pada program studi <strong>D4 Teknologi Rekayasa Internet</strong> dengan minat utama pada rekayasa perangkat lunak dan arsitektur backend. Saya memiliki ketertarikan khusus pada proses pengolahan data di balik layar, implementasi logika server, serta bagaimana aplikasi web dapat terhubung secara stabil dan efisien.
+            </p>
+            <p class="about-text">
+              Saat ini, fokus utama saya adalah memperkuat pemahaman fundamental pemrograman menggunakan <strong>Python</strong> dan <strong>C/C++</strong> untuk melatih algoritma serta struktur data, sembari mendalami ekosistem web modern (<strong>HTML, CSS, JavaScript</strong>). Saya menikmati tantangan dalam memecahkan masalah yang menuntut logika terstruktur dan berkomitmen untuk terus meningkatkan kualitas kode secara berkelanjutan.
+            </p>
+          </div>
+          <div class="about-highlights">
+            <div class="highlight-item">
+              <div class="highlight-icon">⚙️</div>
+              <div>
+                <h3>Minat Backend & Sistem</h3>
+                <p>Fokus mendalami logika pemrosesan data, integrasi API, dan efisiensi alur program.</p>
+              </div>
+            </div>
+            <div class="highlight-item">
+              <div class="highlight-icon">💻</div>
+              <div>
+                <h3>Fondasi Algoritma</h3>
+                <p>Mengasah ketelitian logika matematika dan struktur data lewat C/C++ dan Python.</p>
+              </div>
+            </div>
+            <div class="highlight-item">
+              <div class="highlight-icon">🌐</div>
+              <div>
+                <h3>Teknologi Internet</h3>
+                <p>Memahami dasar jaringan komunikasi data dan infrastruktur aplikasi berbasis web.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="section bg-alt">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tag">Keahlian Teknis</p>
+          <h2 class="section-title">Skills & Kompetensi</h2>
+        </div>
+        <div class="skills-grid">
+          <!-- Programming Languages -->
+          <div class="skill-category">
+            <div class="category-header">
+              <span class="category-icon">⚡</span>
+              <h3>Programming Languages</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="tag">Python</span>
+              <span class="tag">C / C++</span>
+              <span class="tag">JavaScript</span>
+              <span class="tag">HTML5</span>
+              <span class="tag">CSS3</span>
+            </div>
+            <p class="category-note">Bahasa utama untuk pengasahan algoritma, logika sistem, dan antarmuka web dasar.</p>
+          </div>
+
+          <!-- Backend -->
+          <div class="skill-category">
+            <div class="category-header">
+              <span class="category-icon">🗄️</span>
+              <h3>Backend Foundations</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="tag">Server-side Logic</span>
+              <span class="tag">OOP Fundamentals</span>
+              <span class="tag-status">Sedang Mendalami Framework Backend</span>
+            </div>
+            <p class="category-note">Memahami prinsip pemrograman berorientasi objek dan logika komputasi server.</p>
+          </div>
+
+          <!-- Database -->
+          <div class="skill-category">
+            <div class="category-header">
+              <span class="category-icon">💾</span>
+              <h3>Database</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="tag-hollow">[Belum diisi]</span>
+            </div>
+            <p class="category-note">Target pembelajaran berikutnya: Dasar SQL (Relational Database Management System).</p>
+          </div>
+
+          <!-- API -->
+          <div class="skill-category">
+            <div class="category-header">
+              <span class="category-icon">🔌</span>
+              <h3>API & Protokol Web</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="tag">Dasar Protokol HTTP</span>
+              <span class="tag-status">Mempelajari RESTful API</span>
+            </div>
+            <p class="category-note">Pemahaman dasar komunikasi client-server serta struktur request & response web.</p>
+          </div>
+
+          <!-- Tools & DevOps -->
+          <div class="skill-category">
+            <div class="category-header">
+              <span class="category-icon">🛠️</span>
+              <h3>Tools & Software</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="tag">Visual Studio Code</span>
+              <span class="tag">Canva (UI & Visual)</span>
+              <span class="tag-hollow">Git / GitHub [Belum diisi]</span>
+            </div>
+            <p class="category-note">Perangkat lunak yang digunakan dalam proses penulisan kode dan perancangan materi visual.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tag">Portofolio Pekerjaan</p>
+          <h2 class="section-title">Project Pilihan</h2>
+        </div>
+        <div class="projects-grid">
+          <!-- Project 1 (Prioritas Utama) -->
+          <article class="project-card featured">
+            <div class="project-badge-top">Prioritas Utama: Web & Logic</div>
+            <div class="project-content">
+              <h3 class="project-title">Web Development Project (VS Code)</h3>
+              <p class="project-overview">
+                Eksplorasi pembuatan antarmuka web interaktif yang dikembangkan secara lokal menggunakan Visual Studio Code untuk memahami struktur dokumen semantik serta manipulasi interaksi elemen.
+              </p>
+              
+              <div class="project-meta-table">
+                <div class="meta-row">
+                  <span class="meta-label">Problem:</span>
+                  <span class="meta-val">Kebutuhan memahami integrasi antara struktur semantik web, visualisasi gaya, dan respon interaktif dari sisi client.</span>
+                </div>
+                <div class="meta-row">
+                  <span class="meta-label">Solution:</span>
+                  <span class="meta-val">Mengembangkan halaman web dari dasar (*from scratch*) dengan HTML bersih, CSS terstruktur, serta logika event handling JavaScript.</span>
+                </div>
+                <div class="meta-row">
+                  <span class="meta-label">Role:</span>
+                  <span class="meta-val">Front-End & Logic Developer (Mandiri)</span>
+                </div>
+                <div class="meta-row">
+                  <span class="meta-label">Result:</span>
+                  <span class="meta-val">Prototipe website interaktif yang dapat diakses secara lokal di browser. [Metrik lanjutan: Belum diisi]</span>
+                </div>
+              </div>
+
+              <div class="tech-stack-list">
+                <span class="tech-tag">HTML</span>
+                <span class="tech-tag">CSS</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">VS Code</span>
+              </div>
+
+              <div class="project-links">
+                <span class="link-disabled">GitHub Repo [Belum diisi]</span>
+                <span class="link-disabled">Live Demo [Belum diisi]</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2 (Prioritas Sekunder) -->
+          <article class="project-card">
+            <div class="project-badge-top secondary">Kreatif & Visual</div>
+            <div class="project-content">
+              <h3 class="project-title">Visual & Graphic Design Collection</h3>
+              <p class="project-overview">
+                Perancangan materi visual dan presentasi informasi yang berfokus pada keterbacaan, pemilihan tipografi teratur, dan komposisi tata letak yang proporsional.
+              </p>
+              
+              <div class="project-meta-table">
+                <div class="meta-row">
+                  <span class="meta-label">Problem:</span>
+                  <span class="meta-val">Informasi visual memerlukan tata letak yang menarik dan hierarki yang terstruktur agar mudah dipahami pembaca.</span>
+                </div>
+                <div class="meta-row">
+                  <span class="meta-label">Solution:</span>
+                  <span class="meta-val">Mengombinasikan palet warna konsisten, kontras yang seimbang, dan susunan tipografi hierarkis.</span>
+                </div>
+                <div class="meta-row">
+                  <span class="meta-label">Role:</span>
+                  <span class="meta-val">Visual Designer</span>
+                </div>
+                <div class="meta-row">
+                  <span class="meta-label">Result:</span>
+                  <span class="meta-val">Aset grafis siap publikasi dengan penyampaian pesan yang jelas. [Belum diisi]</span>
+                </div>
+              </div>
+
+              <div class="tech-stack-list">
+                <span class="tech-tag">Canva</span>
+                <span class="tech-tag">Visual Layout</span>
+              </div>
+
+              <div class="project-links">
+                <span class="link-disabled">Tautan Desain [Belum diisi]</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE SECTION -->
+    <section id="experience" class="section bg-alt">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tag">Aktivitas & Praktik</p>
+          <h2 class="section-title">Pengalaman</h2>
+        </div>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">Semester Awal - Sekarang</span>
+              <h3 class="timeline-title">Independent Coding & Academic Practice</h3>
+              <p class="timeline-role">Self-Directed Learning & Studi Kuliah</p>
+              <ul class="timeline-bullets">
+                <li>Menulis dan menguji skrip pemrograman dasar (Python, C/C++) untuk melatih logika penyelesaian masalah dan penguasaan algoritma.</li>
+                <li>Mengeksplorasi alur kerja pengembangan web melalui Visual Studio Code dengan struktur file yang terorganisir.</li>
+                <li>Mendalami konsep dasar komunikasi data dan teknologi internet di perkuliahan.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION SECTION -->
+    <section id="education" class="section">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tag">Latar Belakang Pendidikan</p>
+          <h2 class="section-title">Pendidikan</h2>
+        </div>
+        <div class="education-card">
+          <div class="edu-icon">🎓</div>
+          <div class="edu-details">
+            <div class="edu-top">
+              <h3 class="edu-degree">D4 Teknologi Rekayasa Internet</h3>
+              <span class="edu-status">Mahasiswa Aktif (Semester Awal)</span>
+            </div>
+            <p class="edu-campus">[Nama Politeknik / Universitas - Belum diisi]</p>
+            <p class="edu-description">
+              Mempelajari arsitektur jaringan komputer, infrastruktur komunikasi internet, dasar rekayasa sistem, dan pemrograman perangkat lunak.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="section bg-alt">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tag">Terhubung</p>
+          <h2 class="section-title">Kontak & Informasi</h2>
+        </div>
+        <div class="contact-box">
+          <p class="contact-lead">
+            Tertarik berdiskusi mengenai proyek web, eksplorasi backend, atau peluang kerja sama? Silakan hubungi saya melalui jalur berikut:
+          </p>
+          <div class="contact-methods">
+            <div class="contact-item">
+              <span class="contact-label">Email:</span>
+              <span class="contact-val">[Belum diisi - contoh: email@domain.com]</span>
+            </div>
+            <div class="contact-item">
+              <span class="contact-label">LinkedIn:</span>
+              <span class="contact-val">[Belum diisi - linkedin.com/in/username]</span>
+            </div>
+            <div class="contact-item">
+              <span class="contact-label">GitHub:</span>
+              <span class="contact-val">[Belum diisi - github.com/username]</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <p>&copy; <span id="currentYear"></span> [Nama Lengkap]. Dibuat dengan HTML, CSS & JavaScript murni.</p>
+      <a href="#home" class="back-to-top">Kembali ke atas &uarr;</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
